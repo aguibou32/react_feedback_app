@@ -8,6 +8,7 @@ function FeedbackItem(props) {
 
   const { item} = props;
   const {deleteFeedbackItem, editFeedback} = useContext(FeedbackContext);
+  
   return (
     <Card >
       <div className="num-display">{item.rating}</div>
